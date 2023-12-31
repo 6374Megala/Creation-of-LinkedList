@@ -10,21 +10,7 @@ public class MyNodeTest {
         MyNode<Integer> node1 = new MyNode(70);
         MyNode<Integer> node2 = new MyNode(30);
         MyNode<Integer> node3 = new MyNode(50);
-        //  node1.setNext(node2);
-        //  node2.setNext(node3);
-//        MyLinkedList myList = new MyLinkedList();
-//        myList.add(node1);
-//        myList.add(node2);
-//        myList.add(node3);
-//        myList.printNode();
-//        boolean result = myList.head.equals(node3) && myList.head.getNext().equals(node2) && myList.tail.equals(node1);
-//        Assert.assertTrue(result);
-//        myList.addFirst(node1);
-//        myList.addFirst(node4);
-//        myList.addFirst(node3);
-//        myList.printNode();
-//        myList.append(node1,node2);
-//        myList.printNode();
+
     }
     @Test
     public void addingDataToLinkedListUC2(){
