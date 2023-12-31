@@ -128,45 +128,5 @@ public class MyLinkedList {
         return false;
     }
 
-//        public INode sortList(INode head) {
-//        if(head==null || head.getNext()==null){
-//            return head;
-//        }
-//        INode mid=midPre(head);
-//        INode left=sortList(head);
-//        INode right=sortList(mid);
-//        return merg(left,right);
-//    }
-//    public INode merg(INode first,INode second){
-//        INode dummy=new MyNode();
-//        INode temp=dummy;
-//        while(first!=null && second!=null){
-//            if(first.val < second.val){
-//                temp.next=first;
-//                first=first.next;
-//                temp=temp.next;
-//            }
-//            else{
-//                temp.next=second;
-//                second=second.next;
-//                temp=temp.next;
-//            }
-//        }
-//        temp.next=(first!=null)?first:second;
-//        return dummy.next;
-//    }
-//    public INode midPre(ListNode head){
-//        INode mid=null;
-//
-//
-//        while(head!=null && head.next!=null){
-//            mid=(mid==null)?head :mid.next;
-//            head=head.next.next;
-//        }
-//        INode temp=mid.next;
-//        mid.next=null;
-//        return temp;
-//
-//    }
 
 }
